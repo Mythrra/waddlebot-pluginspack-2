@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 
-@commands.command(aliases=["echo", "repeatafterme"])
 class say(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
