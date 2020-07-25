@@ -23,6 +23,8 @@ class HelloPlugin(commands.Cog):
             await message.channel.send("Distant sparks call to a past still unamed...")
         elif "who's the best kirby in Waddling Gaming?" in message.content.lower():
             await message.channel.send("probably prix")
+        elif "What is the best Kirby game?" in message.content.lower():
+            await message.channel.send("Super Star Ultra or the 3DS ones")
         elif "can we get a petfroge in the chat" in message.content.lower():
             await message.channel.send("https://images-ext-2.discordapp.net/external/H3akJEvJbTEc1ZPGqEU4wapDdZDQhOyul_9Bh3KkStU/https/cdn.discordapp.com/emojis/731940867547594793.gif")
 
