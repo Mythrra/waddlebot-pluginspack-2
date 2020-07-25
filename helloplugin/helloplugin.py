@@ -19,6 +19,8 @@ class HelloPlugin(commands.Cog):
             await message.channel.send("YES")
         elif "can we get an f in the chat" in message.content.lower():
             await message.channel.send(":regional_indicator_f:")
+        elif "Colors weave into a spire of flame" in message.content.lower():
+            await message.channel.send("Distant sparks call to a past still unamed...")
 
 def setup(bot):
     bot.add_cog(HelloPlugin(bot))
