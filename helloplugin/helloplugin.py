@@ -21,8 +21,6 @@ class HelloPlugin(commands.Cog):
             await message.channel.send("*waddle waddle (waddle)*")
         elif "until the very next day" in message.content.lower():
             await message.channel.send("*Bum bum bum bum ba-da-dum*")
-        elif "hey, got any grapes?" in message.content.lower():
-            await message.channel.send("***N O***")
         elif "do you think waddle dee should be in smash?" in message.content.lower():
             await message.channel.send("YES")
         elif "can we get an f in the chat" in message.content.lower():
