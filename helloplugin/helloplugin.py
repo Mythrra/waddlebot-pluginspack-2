@@ -9,6 +9,8 @@ class HelloPlugin(commands.Cog):
         if message.author.bot:
             return
 
+        elif "hey @WaddleBot" in message.content.lower():
+            await message.channel.send("Hello! <:BandanaDeeWave:735641686348398713>")
         elif "good morning guys" in message.content.lower():
             await message.channel.send("Good Morning! :sunrise:")
         elif "good afternoon guys" in message.content.lower():
@@ -19,7 +21,7 @@ class HelloPlugin(commands.Cog):
             await message.channel.send("*waddle waddle (waddle)*")
         elif "until the very next day" in message.content.lower():
             await message.channel.send("*Bum bum bum bum ba-da-dum*")
-         elif "hey, got any grapes?" in message.content.lower():
+        elif "hey, got any grapes?" in message.content.lower():
             await message.channel.send("***N O***")
         elif "do you think waddle dee should be in smash?" in message.content.lower():
             await message.channel.send("YES")
