@@ -14,7 +14,7 @@ class HelloPlugin(commands.Cog):
         elif "good night" in message.content.lower():
             await message.channel.send("Night and sweet dreams! :first_quarter_moon_with_face:")
         elif "and then he waddled away" in message.content.lower():
-            await message.channel.send("*waddle waddle waddle*")
+            await message.channel.send("*waddle waddle (waddle)*")
         elif "until the very next day" in message.content.lower():
             await message.channel.send("*Bum bum bum bum ba-bada-dum*")
         elif "do you think waddle dee should be in smash?" in message.content.lower():
